@@ -3,25 +3,30 @@
 устройство: 2e8a:000a
 серийный номер: 500315193872551C
 порт: COM9
-начало: 2026-10-10T18:41:54
+начало: 2026-10-10T19:12:46
    0.000 --> enable
    0.125 <-- enable
    0.125 <-- dbg read_line:107 got enable
-   0.141 <-- inf cmd_enable:37 led on
-   2.172 --> disable
+   0.140 <-- inf cmd_enable:37 led on
+   2.187 --> disable
    2.328 <-- disable
    2.328 <-- dbg read_line:107 got disable
    2.328 <-- inf cmd_disable:43 led off
    4.359 --> info
    4.453 <-- info
    4.453 <-- dbg read_line:107 got info
-   4.453 <-- device: es-led-module 1.0.0, built Oct 10 2026 10:30:46, log level 3
+   4.453 <-- project: 211-command-usb
+   4.453 <-- repo: https://github.com/mrzoas/es-student
+   4.453 <-- board: pico
+   4.453 <-- serial: 500315193872551C
+   4.468 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   4.468 <-- pico-sdk: 2.3.0
    6.500 --> ping
-   6.594 <-- ping
-   6.594 <-- dbg read_line:107 got ping
-   6.594 <-- pong
-   8.625 --> nosuchcommand
-   8.891 <-- nosuchcommand
-   8.891 <-- dbg read_line:107 got nosuchcommand
-   8.891 <-- err handle_command:87 unknown command: nosuchcommand
-итог: отправлено команд 5, принято строк 15
+   6.593 <-- ping
+   6.593 <-- dbg read_line:107 got ping
+   6.593 <-- pong
+   8.609 --> nosuchcommand
+   8.890 <-- nosuchcommand
+   8.890 <-- dbg read_line:107 got nosuchcommand
+   8.890 <-- err handle_command:87 unknown command: nosuchcommand
+итог: отправлено команд 5, принято строк 20

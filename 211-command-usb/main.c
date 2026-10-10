@@ -45,7 +45,7 @@ void cmd_disable(void)
 
 void cmd_info(void)
 {
-    log_version();
+    device_info();
 }
 
 void cmd_version(void)
